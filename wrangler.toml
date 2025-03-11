@@ -1,0 +1,9 @@
+name = "gen-verifier"
+main = "src/worker.js"
+compatibility_date = "2025-01-19"
+workers_dev = false
+
+[[routes]]
+pattern = "verifier.mizuame.app"
+zone_name = "mizuame.app"
+custom_domain = true
